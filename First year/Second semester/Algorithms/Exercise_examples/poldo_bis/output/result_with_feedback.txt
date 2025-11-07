@@ -1,0 +1,259 @@
+
+Subtask 1 (3 testcases):
+Case #001 [esempi_testo - hardcoded]: AC (0.041/1.000 secs) All Correct (got 2/2 points)
+Case #002 [esempi_testo - hardcoded]: AC (0.042/1.000 secs) All Correct (got 2/2 points)
+Case #003 [esempi_testo - hardcoded]: AC (0.040/1.000 secs) All Correct (got 2/2 points)
+
+Subtask 2 (5 testcases):
+Case #004 [tiny(seed=691210)]: AC (0.041/1.000 secs) All Correct (got 2/2 points)
+Case #005 [tiny(seed=300276)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=4 whereas you returned risp_optval=3
+
+ - optsol: 0/1 points. Feedback: an inconsistency has been detected: risp_optval=3 differs from the value of the solution you have returned.
+
+Case #006 [tiny(seed=258547)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=2 whereas you returned risp_optval=1
+
+ - optsol: 0/1 points. Feedback: Your solution is not optimal since it has value 1 whereas the optimal value for this instance is 2. You can ask rtal the dowload of files with the correct answers using the flag argument `-a download_corr_answ`. (Provide the pertinent seed to the `global_seed` or the `instance_seed` argument in order to get the answers for instances faced in previous submissions.) Or pose your own instances with the flag `-a swap_roles`. Be told of the command:
+   `rtal connect <problem_name> synopsis`
+ which reveals and explains all available services and arguments for a given problem. Read the two text files `know_rtal.typ` and `know_synopsis.typ`
+
+Case #007 [tiny(seed=662965)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=2 whereas you returned risp_optval=1
+
+ - optsol: 0/1 points. Feedback: Your solution is not optimal since it has value 1 whereas the optimal value for this instance is 2. You can ask rtal the dowload of files with the correct answers using the flag argument `-a download_corr_answ`. (Provide the pertinent seed to the `global_seed` or the `instance_seed` argument in order to get the answers for instances faced in previous submissions.) Or pose your own instances with the flag `-a swap_roles`. Be told of the command:
+   `rtal connect <problem_name> synopsis`
+ which reveals and explains all available services and arguments for a given problem. Read the two text files `know_rtal.typ` and `know_synopsis.typ`
+
+Case #008 [tiny(seed=674150)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=2 whereas you returned risp_optval=3
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=3<5=S[1].
+
+
+Subtask 3 (5 testcases):
+Case #009 [small(seed=295209)]: WA (0.067/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=4 whereas you returned risp_optval=1
+
+ - optsol: 0/1 points. Feedback: Your solution is not optimal since it has value 1 whereas the optimal value for this instance is 4. You can ask rtal the dowload of files with the correct answers using the flag argument `-a download_corr_answ`. (Provide the pertinent seed to the `global_seed` or the `instance_seed` argument in order to get the answers for instances faced in previous submissions.) Or pose your own instances with the flag `-a swap_roles`. Be told of the command:
+   `rtal connect <problem_name> synopsis`
+ which reveals and explains all available services and arguments for a given problem. Read the two text files `know_rtal.typ` and `know_synopsis.typ`
+
+Case #010 [small(seed=434529)]: WA (0.042/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=3 whereas you returned risp_optval=4
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=1<4=S[1].
+
+Case #011 [small(seed=508631)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=3 whereas you returned risp_optval=4
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=10<14=S[1].
+
+Case #012 [small(seed=353705)]: PAC (0.041/1.000 secs) Partially Correct (1/2 points)
+Some feedback is in order:
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=3<12=S[1].
+
+Case #013 [small(seed=314762)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=4 whereas you returned risp_optval=2
+
+ - optsol: 0/1 points. Feedback: Your solution is not optimal since it has value 2 whereas the optimal value for this instance is 4. You can ask rtal the dowload of files with the correct answers using the flag argument `-a download_corr_answ`. (Provide the pertinent seed to the `global_seed` or the `instance_seed` argument in order to get the answers for instances faced in previous submissions.) Or pose your own instances with the flag `-a swap_roles`. Be told of the command:
+   `rtal connect <problem_name> synopsis`
+ which reveals and explains all available services and arguments for a given problem. Read the two text files `know_rtal.typ` and `know_synopsis.typ`
+
+
+Subtask 4 (10 testcases):
+Case #014 [medium(seed=448627)]: WA (0.072/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=10 whereas you returned risp_optval=5
+
+ - optsol: 0/1 points. Feedback: Your solution is not optimal since it has value 5 whereas the optimal value for this instance is 10. You can ask rtal the dowload of files with the correct answers using the flag argument `-a download_corr_answ`. (Provide the pertinent seed to the `global_seed` or the `instance_seed` argument in order to get the answers for instances faced in previous submissions.) Or pose your own instances with the flag `-a swap_roles`. Be told of the command:
+   `rtal connect <problem_name> synopsis`
+ which reveals and explains all available services and arguments for a given problem. Read the two text files `know_rtal.typ` and `know_synopsis.typ`
+
+Case #015 [medium(seed=314843)]: WA (0.040/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=11 whereas you returned risp_optval=6
+
+ - optsol: 0/1 points. Feedback: Your solution is not optimal since it has value 6 whereas the optimal value for this instance is 11. You can ask rtal the dowload of files with the correct answers using the flag argument `-a download_corr_answ`. (Provide the pertinent seed to the `global_seed` or the `instance_seed` argument in order to get the answers for instances faced in previous submissions.) Or pose your own instances with the flag `-a swap_roles`. Be told of the command:
+   `rtal connect <problem_name> synopsis`
+ which reveals and explains all available services and arguments for a given problem. Read the two text files `know_rtal.typ` and `know_synopsis.typ`
+
+Case #016 [medium(seed=649227)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=12 whereas you returned risp_optval=19
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=4<34=S[1].
+
+Case #017 [medium(seed=471056)]: PAC (0.042/1.000 secs) Partially Correct (1/2 points)
+Some feedback is in order:
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 11 present into it should have been followed by the index 12 as S[11]=48<72=S[12].
+
+Case #018 [medium(seed=186718)]: WA (0.040/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=11 whereas you returned risp_optval=10
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 59 present into it should have been followed by the index 60 as S[59]=67<75=S[60].
+
+Case #019 [medium(seed=973969)]: WA (0.071/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=9 whereas you returned risp_optval=8
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 6 present into it should have been followed by the index 7 as S[6]=54<79=S[7].
+
+Case #020 [medium(seed=912416)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=10 whereas you returned risp_optval=3
+
+ - optsol: 0/1 points. Feedback: Your solution is not optimal since it has value 3 whereas the optimal value for this instance is 10. You can ask rtal the dowload of files with the correct answers using the flag argument `-a download_corr_answ`. (Provide the pertinent seed to the `global_seed` or the `instance_seed` argument in order to get the answers for instances faced in previous submissions.) Or pose your own instances with the flag `-a swap_roles`. Be told of the command:
+   `rtal connect <problem_name> synopsis`
+ which reveals and explains all available services and arguments for a given problem. Read the two text files `know_rtal.typ` and `know_synopsis.typ`
+
+Case #021 [medium(seed=215043)]: PAC (0.041/1.000 secs) Partially Correct (1/2 points)
+Some feedback is in order:
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=40<65=S[1].
+
+Case #022 [medium(seed=232064)]: WA (0.040/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=12 whereas you returned risp_optval=13
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=27<66=S[1].
+
+Case #023 [medium(seed=877097)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=11 whereas you returned risp_optval=16
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=15<75=S[1].
+
+
+Subtask 5 (5 testcases):
+Case #024 [big(seed=479333)]: WA (0.042/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=40 whereas you returned risp_optval=47
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=192<851=S[1].
+
+Case #025 [big(seed=925725)]: WA (0.043/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=38 whereas you returned risp_optval=36
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=507<895=S[1].
+
+Case #026 [big(seed=985220)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=36 whereas you returned risp_optval=41
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=423<977=S[1].
+
+Case #027 [big(seed=731986)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=41 whereas you returned risp_optval=35
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 95 present into it should have been followed by the index 96 as S[95]=530<638=S[96].
+
+Case #028 [big(seed=150213)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=41 whereas you returned risp_optval=36
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 3 present into it should have been followed by the index 4 as S[3]=593<727=S[4].
+
+
+Subtask 6 (15 testcases):
+Case #029 [large(seed=166360)]: WA (0.126/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=135 whereas you returned risp_optval=72
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 3314 present into it should have been followed by the index 3315 as S[3314]=9171<9739=S[3315].
+
+Case #030 [large(seed=235846)]: WA (0.049/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=132 whereas you returned risp_optval=53
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 1368 present into it should have been followed by the index 1369 as S[1368]=9167<9454=S[1369].
+
+Case #031 [large(seed=915912)]: WA (0.051/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=127 whereas you returned risp_optval=161
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=1998<6281=S[1].
+
+Case #032 [large(seed=312927)]: WA (0.051/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=132 whereas you returned risp_optval=165
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=2284<7650=S[1].
+
+Case #033 [large(seed=141775)]: WA (0.050/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=132 whereas you returned risp_optval=136
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 64 present into it should have been followed by the index 65 as S[64]=4945<9337=S[65].
+
+Case #034 [large(seed=601548)]: WA (0.050/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=130 whereas you returned risp_optval=168
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=1578<4459=S[1].
+
+Case #035 [large(seed=190373)]: WA (0.051/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=134 whereas you returned risp_optval=132
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=5062<6400=S[1].
+
+Case #036 [large(seed=106978)]: WA (0.049/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=138 whereas you returned risp_optval=125
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 707 present into it should have been followed by the index 708 as S[707]=5925<7433=S[708].
+
+Case #037 [large(seed=162207)]: WA (0.049/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=133 whereas you returned risp_optval=106
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 376 present into it should have been followed by the index 377 as S[376]=7151<9413=S[377].
+
+Case #038 [large(seed=304180)]: PAC (0.050/1.000 secs) Partially Correct (1/2 points)
+Some feedback is in order:
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=5004<7831=S[1].
+
+Case #039 [large(seed=267832)]: WA (0.052/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=135 whereas you returned risp_optval=167
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=1937<5235=S[1].
+
+Case #040 [large(seed=759745)]: WA (0.052/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=133 whereas you returned risp_optval=180
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=331<4220=S[1].
+
+Case #041 [large(seed=304326)]: WA (0.052/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=138 whereas you returned risp_optval=192
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 0 present into it should have been followed by the index 1 as S[0]=109<9581=S[1].
+
+Case #042 [large(seed=183762)]: WA (0.050/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=135 whereas you returned risp_optval=119
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 181 present into it should have been followed by the index 182 as S[181]=6304<6785=S[182].
+
+Case #043 [large(seed=740187)]: WA (0.051/1.000 secs) Wrong Answer (got 0/2 points)
+Some feedback is in order:
+ - optval: 0/1 points. Feedback: corr_optval=137 whereas you returned risp_optval=145
+
+ - optsol: 0/1 points. Feedback: The returned solution subsequence does not satisfy Condition 2 as the index 187 present into it should have been followed by the index 188 as S[187]=4354<6782=S[188].
+
+
+
+Score: 12/86 points

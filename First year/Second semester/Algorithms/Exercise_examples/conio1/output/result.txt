@@ -1,0 +1,35 @@
+
+Subtask 1 (4 testcases):
+Case #001 [esempi_testo - hardcoded]: AC (0.043/1.000 secs) All Correct (got 2/2 points)
+Case #002 [esempi_testo - hardcoded]: AC (0.043/1.000 secs) All Correct (got 2/2 points)
+Case #003 [esempi_testo - hardcoded]: AC (0.043/1.000 secs) All Correct (got 2/2 points)
+Case #004 [esempi_testo - hardcoded]: AC (0.043/1.000 secs) All Correct (got 2/2 points)
+
+Subtask 2 (5 testcases):
+Case #005 [small(seed=907948)]: AC (0.044/1.000 secs) All Correct (got 2/2 points)
+Case #006 [small(seed=811217)]: AC (0.043/1.000 secs) All Correct (got 2/2 points)
+Case #007 [small(seed=892392)]: AC (0.045/1.000 secs) All Correct (got 2/2 points)
+Case #008 [small(seed=424996)]: AC (0.044/1.000 secs) All Correct (got 2/2 points)
+Case #009 [small(seed=658430)]: AC (0.042/1.000 secs) All Correct (got 2/2 points)
+
+Subtask 3 (4 testcases):
+Case #010 [medium(seed=697441)]: AC (0.043/1.000 secs) All Correct (got 2/2 points)
+Case #011 [medium(seed=517400)]: AC (0.043/1.000 secs) All Correct (got 2/2 points)
+Case #012 [medium(seed=158284)]: AC (0.042/1.000 secs) All Correct (got 2/2 points)
+Case #013 [medium(seed=766111)]: AC (0.042/1.000 secs) All Correct (got 2/2 points)
+
+Subtask 4 (3 testcases):
+Case #014 [big(seed=317495)]: AC (0.043/1.000 secs) All Correct (got 2/2 points)
+Case #015 [big(seed=712816)]: AC (0.043/1.000 secs) All Correct (got 2/2 points)
+Case #016 [big(seed=246394)]: AC (0.044/1.000 secs) All Correct (got 2/2 points)
+
+Subtask 5 (2 testcases):
+Case #017 [large(seed=730944)]: AC (0.043/1.000 secs) All Correct (got 2/2 points)
+Case #018 [large(seed=499878)]: AC (0.044/1.000 secs) All Correct (got 2/2 points)
+
+Subtask 6 (2 testcases):
+Case #019 [extra_large(seed=660586)]: AC (0.043/1.000 secs) All Correct (got 2/2 points)
+Case #020 [extra_large(seed=833371)]: AC (0.044/1.000 secs) All Correct (got 2/2 points)
+
+
+Score: 40/40 points

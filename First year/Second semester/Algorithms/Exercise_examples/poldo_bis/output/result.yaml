@@ -1,0 +1,304 @@
+Subtasks:
+- 1:
+    subtask name: esempi_testo
+    time limit: 1
+    scoring type:
+    - boolean
+    - boolean
+    num testcases: 3
+    testcases:
+    - testcase num 1:
+        origin: hardcoded
+        goal optval: achieved
+        goal optsol: achieved
+        delay: 0.041432857513427734
+    - testcase num 2:
+        origin: hardcoded
+        goal optval: achieved
+        goal optsol: achieved
+        delay: 0.04158186912536621
+    - testcase num 3:
+        origin: hardcoded
+        goal optval: achieved
+        goal optsol: achieved
+        delay: 0.04023337364196777
+- 2:
+    subtask name: tiny
+    time limit: 1
+    scoring type:
+    - boolean
+    - boolean
+    num testcases: 5
+    testcases:
+    - testcase num 4:
+        origin: randomly generated
+        seed: 691210
+        goal optval: achieved
+        goal optsol: achieved
+        delay: 0.04069852828979492
+    - testcase num 5:
+        origin: randomly generated
+        seed: 300276
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.04123735427856445
+    - testcase num 6:
+        origin: randomly generated
+        seed: 258547
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.04141688346862793
+    - testcase num 7:
+        origin: randomly generated
+        seed: 662965
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.04110908508300781
+    - testcase num 8:
+        origin: randomly generated
+        seed: 674150
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.041046857833862305
+- 3:
+    subtask name: small
+    time limit: 1
+    scoring type:
+    - boolean
+    - boolean
+    num testcases: 5
+    testcases:
+    - testcase num 9:
+        origin: randomly generated
+        seed: 295209
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.06700992584228516
+    - testcase num 10:
+        origin: randomly generated
+        seed: 434529
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.0416259765625
+    - testcase num 11:
+        origin: randomly generated
+        seed: 508631
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.04081106185913086
+    - testcase num 12:
+        origin: randomly generated
+        seed: 353705
+        goal optval: achieved
+        goal optsol: failed
+        delay: 0.04136991500854492
+    - testcase num 13:
+        origin: randomly generated
+        seed: 314762
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.04072403907775879
+- 4:
+    subtask name: medium
+    time limit: 1
+    scoring type:
+    - boolean
+    - boolean
+    num testcases: 10
+    testcases:
+    - testcase num 14:
+        origin: randomly generated
+        seed: 448627
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.07248616218566895
+    - testcase num 15:
+        origin: randomly generated
+        seed: 314843
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.04029440879821777
+    - testcase num 16:
+        origin: randomly generated
+        seed: 649227
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.04102158546447754
+    - testcase num 17:
+        origin: randomly generated
+        seed: 471056
+        goal optval: achieved
+        goal optsol: failed
+        delay: 0.04151463508605957
+    - testcase num 18:
+        origin: randomly generated
+        seed: 186718
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.04045677185058594
+    - testcase num 19:
+        origin: randomly generated
+        seed: 973969
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.07115292549133301
+    - testcase num 20:
+        origin: randomly generated
+        seed: 912416
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.04134535789489746
+    - testcase num 21:
+        origin: randomly generated
+        seed: 215043
+        goal optval: achieved
+        goal optsol: failed
+        delay: 0.04067587852478027
+    - testcase num 22:
+        origin: randomly generated
+        seed: 232064
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.04008173942565918
+    - testcase num 23:
+        origin: randomly generated
+        seed: 877097
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.04051518440246582
+- 5:
+    subtask name: big
+    time limit: 1
+    scoring type:
+    - boolean
+    - boolean
+    num testcases: 5
+    testcases:
+    - testcase num 24:
+        origin: randomly generated
+        seed: 479333
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.04157662391662598
+    - testcase num 25:
+        origin: randomly generated
+        seed: 925725
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.04336881637573242
+    - testcase num 26:
+        origin: randomly generated
+        seed: 985220
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.04126286506652832
+    - testcase num 27:
+        origin: randomly generated
+        seed: 731986
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.04141116142272949
+    - testcase num 28:
+        origin: randomly generated
+        seed: 150213
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.041043996810913086
+- 6:
+    subtask name: large
+    time limit: 1
+    scoring type:
+    - boolean
+    - boolean
+    num testcases: 15
+    testcases:
+    - testcase num 29:
+        origin: randomly generated
+        seed: 166360
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.12597393989562988
+    - testcase num 30:
+        origin: randomly generated
+        seed: 235846
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.04930925369262695
+    - testcase num 31:
+        origin: randomly generated
+        seed: 915912
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.05103182792663574
+    - testcase num 32:
+        origin: randomly generated
+        seed: 312927
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.0509486198425293
+    - testcase num 33:
+        origin: randomly generated
+        seed: 141775
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.049997568130493164
+    - testcase num 34:
+        origin: randomly generated
+        seed: 601548
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.050055503845214844
+    - testcase num 35:
+        origin: randomly generated
+        seed: 190373
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.05074572563171387
+    - testcase num 36:
+        origin: randomly generated
+        seed: 106978
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.049068450927734375
+    - testcase num 37:
+        origin: randomly generated
+        seed: 162207
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.048632144927978516
+    - testcase num 38:
+        origin: randomly generated
+        seed: 304180
+        goal optval: achieved
+        goal optsol: failed
+        delay: 0.049761056900024414
+    - testcase num 39:
+        origin: randomly generated
+        seed: 267832
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.05203604698181152
+    - testcase num 40:
+        origin: randomly generated
+        seed: 759745
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.051766395568847656
+    - testcase num 41:
+        origin: randomly generated
+        seed: 304326
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.05150318145751953
+    - testcase num 42:
+        origin: randomly generated
+        seed: 183762
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.04952096939086914
+    - testcase num 43:
+        origin: randomly generated
+        seed: 740187
+        goal optval: failed
+        goal optsol: failed
+        delay: 0.05107998847961426

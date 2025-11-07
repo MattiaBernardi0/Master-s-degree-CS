@@ -1,0 +1,107 @@
+TALight evaluation manager service called for problem:
+   dijkstra
+Universal Random Seed for this call to the service: 113223.
+
+File `README_synopsis.typ` downloaded in the output folder.
+File `README_rtal.typ` downloaded in the output folder.
+No problem-specific `README_this_TALight_problem.typ` getby file has been made available for this problem.
+The server is running in TRACKING mode, that is, it keeps track of the autenticated submissions and their evaluation results.
+And the user has autenticated by providing his personal token in this call to the server.
+And the user has provided the source files via the -fsouce rtal argument.
+
+Trying to read the data.yaml file `/home/ubuntu/esami-algo-private/esercitazioni_homeworks_algo_2024/dijkstra/testo/data.yaml` ...
+Ok: data.yaml file successfully read and parsed.
+The testbed has been successfully created.
+
+Subtask 1 (2 testcases):
+
+Case #001 [esempi_testo - hardcoded]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #001 [esempi_testo - hardcoded]: successfully ended (=communication protocol fully respected).
+
+Case #002 [esempi_testo - hardcoded]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #002 [esempi_testo - hardcoded]: successfully ended (=communication protocol fully respected).
+
+Subtask 2 (6 testcases):
+
+Case #003 [small(seed=989830)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #003 [small(seed=989830)]: successfully ended (=communication protocol fully respected).
+
+Case #004 [small(seed=671846)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #004 [small(seed=671846)]: successfully ended (=communication protocol fully respected).
+
+Case #005 [small(seed=557582)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #005 [small(seed=557582)]: successfully ended (=communication protocol fully respected).
+
+Case #006 [small(seed=952358)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #006 [small(seed=952358)]: successfully ended (=communication protocol fully respected).
+
+Case #007 [small(seed=908121)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #007 [small(seed=908121)]: successfully ended (=communication protocol fully respected).
+
+Case #008 [small(seed=207900)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #008 [small(seed=207900)]: successfully ended (=communication protocol fully respected).
+
+Subtask 3 (9 testcases):
+
+Case #009 [medium(seed=954958)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #009 [medium(seed=954958)]: successfully ended (=communication protocol fully respected).
+
+Case #010 [medium(seed=653060)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #010 [medium(seed=653060)]: successfully ended (=communication protocol fully respected).
+
+Case #011 [medium(seed=418896)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #011 [medium(seed=418896)]: successfully ended (=communication protocol fully respected).
+
+Case #012 [medium(seed=990083)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #012 [medium(seed=990083)]: successfully ended (=communication protocol fully respected).
+
+Case #013 [medium(seed=474046)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #013 [medium(seed=474046)]: successfully ended (=communication protocol fully respected).
+
+Case #014 [medium(seed=717750)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #014 [medium(seed=717750)]: successfully ended (=communication protocol fully respected).
+
+Case #015 [medium(seed=309674)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #015 [medium(seed=309674)]: successfully ended (=communication protocol fully respected).
+
+Case #016 [medium(seed=285752)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #016 [medium(seed=285752)]: successfully ended (=communication protocol fully respected).
+
+Case #017 [medium(seed=143004)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #017 [medium(seed=143004)]: successfully ended (=communication protocol fully respected).
+
+Subtask 4 (9 testcases):
+
+Case #018 [big(seed=644775)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #018 [big(seed=644775)]: successfully ended (=communication protocol fully respected).
+
+Case #019 [big(seed=348314)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #019 [big(seed=348314)]: successfully ended (=communication protocol fully respected).
+
+Case #020 [big(seed=316212)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #020 [big(seed=316212)]: successfully ended (=communication protocol fully respected).
+
+Case #021 [big(seed=296780)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #021 [big(seed=296780)]: successfully ended (=communication protocol fully respected).
+
+Case #022 [big(seed=782617)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #022 [big(seed=782617)]: successfully ended (=communication protocol fully respected).
+
+Case #023 [big(seed=464918)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #023 [big(seed=464918)]: successfully ended (=communication protocol fully respected).
+
+Case #024 [big(seed=499089)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #024 [big(seed=499089)]: successfully ended (=communication protocol fully respected).
+
+Case #025 [big(seed=617066)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #025 [big(seed=617066)]: successfully ended (=communication protocol fully respected).
+
+Case #026 [big(seed=471323)]: has been sent to you. Meanwhile you begin receiving it we start the chron.
+Case #026 [big(seed=471323)]: successfully ended (=communication protocol fully respected).
+
+Trying to store the results of the evalution in the database on the server.
+-Ok. The results of the evalution have been stored in the database on the server.
+
+Files result.txt and fresult_with_feedback downloaded in your output folder.
+
+Bye-bye, my logging service ends here. Hope to see you again.

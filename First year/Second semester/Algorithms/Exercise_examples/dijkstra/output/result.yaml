@@ -1,0 +1,208 @@
+Subtasks:
+- 1:
+    subtask name: esempi_testo
+    time limit: 1
+    scoring type: &id001
+    - boolean
+    - boolean
+    - boolean
+    num testcases: 2
+    testcases:
+    - testcase num 1:
+        origin: hardcoded
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.0710604190826416
+    - testcase num 2:
+        origin: hardcoded
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.16611433029174805
+- 2:
+    subtask name: small
+    time limit: 1
+    scoring type: *id001
+    num testcases: 6
+    testcases:
+    - testcase num 3:
+        origin: randomly generated
+        seed: 989830
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.10204696655273438
+    - testcase num 4:
+        origin: randomly generated
+        seed: 671846
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.10181188583374023
+    - testcase num 5:
+        origin: randomly generated
+        seed: 557582
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.10132980346679688
+    - testcase num 6:
+        origin: randomly generated
+        seed: 952358
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.10254526138305664
+    - testcase num 7:
+        origin: randomly generated
+        seed: 908121
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.03930544853210449
+    - testcase num 8:
+        origin: randomly generated
+        seed: 207900
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.3190958499908447
+- 3:
+    subtask name: medium
+    time limit: 1
+    scoring type: *id001
+    num testcases: 9
+    testcases:
+    - testcase num 9:
+        origin: randomly generated
+        seed: 954958
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.3610653877258301
+    - testcase num 10:
+        origin: randomly generated
+        seed: 653060
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.2693023681640625
+    - testcase num 11:
+        origin: randomly generated
+        seed: 418896
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.27437257766723633
+    - testcase num 12:
+        origin: randomly generated
+        seed: 990083
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.3325791358947754
+    - testcase num 13:
+        origin: randomly generated
+        seed: 474046
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.04625558853149414
+    - testcase num 14:
+        origin: randomly generated
+        seed: 717750
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.3378288745880127
+    - testcase num 15:
+        origin: randomly generated
+        seed: 309674
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.1411266326904297
+    - testcase num 16:
+        origin: randomly generated
+        seed: 285752
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.09901952743530273
+    - testcase num 17:
+        origin: randomly generated
+        seed: 143004
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.09784102439880371
+- 4:
+    subtask name: big
+    time limit: 1
+    scoring type: *id001
+    num testcases: 9
+    testcases:
+    - testcase num 18:
+        origin: randomly generated
+        seed: 644775
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.859569787979126
+    - testcase num 19:
+        origin: randomly generated
+        seed: 348314
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.3509526252746582
+    - testcase num 20:
+        origin: randomly generated
+        seed: 316212
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.25199222564697266
+    - testcase num 21:
+        origin: randomly generated
+        seed: 296780
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.1832742691040039
+    - testcase num 22:
+        origin: randomly generated
+        seed: 782617
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.17252445220947266
+    - testcase num 23:
+        origin: randomly generated
+        seed: 464918
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.19308686256408691
+    - testcase num 24:
+        origin: randomly generated
+        seed: 499089
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.1996021270751953
+    - testcase num 25:
+        origin: randomly generated
+        seed: 617066
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.2357187271118164
+    - testcase num 26:
+        origin: randomly generated
+        seed: 471323
+        goal compute distances: achieved
+        goal compute dijkstra-tree: achieved
+        goal count number of dijkstra-trees: achieved
+        delay: 0.23671746253967285

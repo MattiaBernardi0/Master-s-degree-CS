@@ -1,0 +1,58 @@
+
+Subtask 1 (3 testcases):
+Case #001 [esempi_testo - hardcoded]: AC (0.041/1.000 secs) All Correct (got 2/2 points)
+Case #002 [esempi_testo - hardcoded]: AC (0.042/1.000 secs) All Correct (got 2/2 points)
+Case #003 [esempi_testo - hardcoded]: AC (0.040/1.000 secs) All Correct (got 2/2 points)
+
+Subtask 2 (5 testcases):
+Case #004 [tiny(seed=691210)]: AC (0.041/1.000 secs) All Correct (got 2/2 points)
+Case #005 [tiny(seed=300276)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Case #006 [tiny(seed=258547)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Case #007 [tiny(seed=662965)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Case #008 [tiny(seed=674150)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+
+Subtask 3 (5 testcases):
+Case #009 [small(seed=295209)]: WA (0.067/1.000 secs) Wrong Answer (got 0/2 points)
+Case #010 [small(seed=434529)]: WA (0.042/1.000 secs) Wrong Answer (got 0/2 points)
+Case #011 [small(seed=508631)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Case #012 [small(seed=353705)]: PAC (0.041/1.000 secs) Partially Correct (1/2 points)
+Case #013 [small(seed=314762)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+
+Subtask 4 (10 testcases):
+Case #014 [medium(seed=448627)]: WA (0.072/1.000 secs) Wrong Answer (got 0/2 points)
+Case #015 [medium(seed=314843)]: WA (0.040/1.000 secs) Wrong Answer (got 0/2 points)
+Case #016 [medium(seed=649227)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Case #017 [medium(seed=471056)]: PAC (0.042/1.000 secs) Partially Correct (1/2 points)
+Case #018 [medium(seed=186718)]: WA (0.040/1.000 secs) Wrong Answer (got 0/2 points)
+Case #019 [medium(seed=973969)]: WA (0.071/1.000 secs) Wrong Answer (got 0/2 points)
+Case #020 [medium(seed=912416)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Case #021 [medium(seed=215043)]: PAC (0.041/1.000 secs) Partially Correct (1/2 points)
+Case #022 [medium(seed=232064)]: WA (0.040/1.000 secs) Wrong Answer (got 0/2 points)
+Case #023 [medium(seed=877097)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+
+Subtask 5 (5 testcases):
+Case #024 [big(seed=479333)]: WA (0.042/1.000 secs) Wrong Answer (got 0/2 points)
+Case #025 [big(seed=925725)]: WA (0.043/1.000 secs) Wrong Answer (got 0/2 points)
+Case #026 [big(seed=985220)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Case #027 [big(seed=731986)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+Case #028 [big(seed=150213)]: WA (0.041/1.000 secs) Wrong Answer (got 0/2 points)
+
+Subtask 6 (15 testcases):
+Case #029 [large(seed=166360)]: WA (0.126/1.000 secs) Wrong Answer (got 0/2 points)
+Case #030 [large(seed=235846)]: WA (0.049/1.000 secs) Wrong Answer (got 0/2 points)
+Case #031 [large(seed=915912)]: WA (0.051/1.000 secs) Wrong Answer (got 0/2 points)
+Case #032 [large(seed=312927)]: WA (0.051/1.000 secs) Wrong Answer (got 0/2 points)
+Case #033 [large(seed=141775)]: WA (0.050/1.000 secs) Wrong Answer (got 0/2 points)
+Case #034 [large(seed=601548)]: WA (0.050/1.000 secs) Wrong Answer (got 0/2 points)
+Case #035 [large(seed=190373)]: WA (0.051/1.000 secs) Wrong Answer (got 0/2 points)
+Case #036 [large(seed=106978)]: WA (0.049/1.000 secs) Wrong Answer (got 0/2 points)
+Case #037 [large(seed=162207)]: WA (0.049/1.000 secs) Wrong Answer (got 0/2 points)
+Case #038 [large(seed=304180)]: PAC (0.050/1.000 secs) Partially Correct (1/2 points)
+Case #039 [large(seed=267832)]: WA (0.052/1.000 secs) Wrong Answer (got 0/2 points)
+Case #040 [large(seed=759745)]: WA (0.052/1.000 secs) Wrong Answer (got 0/2 points)
+Case #041 [large(seed=304326)]: WA (0.052/1.000 secs) Wrong Answer (got 0/2 points)
+Case #042 [large(seed=183762)]: WA (0.050/1.000 secs) Wrong Answer (got 0/2 points)
+Case #043 [large(seed=740187)]: WA (0.051/1.000 secs) Wrong Answer (got 0/2 points)
+
+
+Score: 12/86 points

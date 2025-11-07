@@ -1,0 +1,37 @@
+
+Subtask 1 (2 testcases):
+Case #001 [esempi_testo - hardcoded]: AC (0.071/1.000 secs) All Correct (got 3/3 points)
+Case #002 [esempi_testo - hardcoded]: AC (0.166/1.000 secs) All Correct (got 3/3 points)
+
+Subtask 2 (6 testcases):
+Case #003 [small(seed=989830)]: AC (0.102/1.000 secs) All Correct (got 3/3 points)
+Case #004 [small(seed=671846)]: AC (0.102/1.000 secs) All Correct (got 3/3 points)
+Case #005 [small(seed=557582)]: AC (0.101/1.000 secs) All Correct (got 3/3 points)
+Case #006 [small(seed=952358)]: AC (0.103/1.000 secs) All Correct (got 3/3 points)
+Case #007 [small(seed=908121)]: AC (0.039/1.000 secs) All Correct (got 3/3 points)
+Case #008 [small(seed=207900)]: AC (0.319/1.000 secs) All Correct (got 3/3 points)
+
+Subtask 3 (9 testcases):
+Case #009 [medium(seed=954958)]: AC (0.361/1.000 secs) All Correct (got 3/3 points)
+Case #010 [medium(seed=653060)]: AC (0.269/1.000 secs) All Correct (got 3/3 points)
+Case #011 [medium(seed=418896)]: AC (0.274/1.000 secs) All Correct (got 3/3 points)
+Case #012 [medium(seed=990083)]: AC (0.333/1.000 secs) All Correct (got 3/3 points)
+Case #013 [medium(seed=474046)]: AC (0.046/1.000 secs) All Correct (got 3/3 points)
+Case #014 [medium(seed=717750)]: AC (0.338/1.000 secs) All Correct (got 3/3 points)
+Case #015 [medium(seed=309674)]: AC (0.141/1.000 secs) All Correct (got 3/3 points)
+Case #016 [medium(seed=285752)]: AC (0.099/1.000 secs) All Correct (got 3/3 points)
+Case #017 [medium(seed=143004)]: AC (0.098/1.000 secs) All Correct (got 3/3 points)
+
+Subtask 4 (9 testcases):
+Case #018 [big(seed=644775)]: AC (0.860/1.000 secs) All Correct (got 3/3 points)
+Case #019 [big(seed=348314)]: AC (0.351/1.000 secs) All Correct (got 3/3 points)
+Case #020 [big(seed=316212)]: AC (0.252/1.000 secs) All Correct (got 3/3 points)
+Case #021 [big(seed=296780)]: AC (0.183/1.000 secs) All Correct (got 3/3 points)
+Case #022 [big(seed=782617)]: AC (0.173/1.000 secs) All Correct (got 3/3 points)
+Case #023 [big(seed=464918)]: AC (0.193/1.000 secs) All Correct (got 3/3 points)
+Case #024 [big(seed=499089)]: AC (0.200/1.000 secs) All Correct (got 3/3 points)
+Case #025 [big(seed=617066)]: AC (0.236/1.000 secs) All Correct (got 3/3 points)
+Case #026 [big(seed=471323)]: AC (0.237/1.000 secs) All Correct (got 3/3 points)
+
+
+Score: 78/78 points
